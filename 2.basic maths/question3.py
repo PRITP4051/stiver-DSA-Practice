@@ -1,4 +1,4 @@
-# palindrome number
+# palindrome number                             #leetcode 9
 n=int(input("enter the number:"))
 num=n
 sum=0

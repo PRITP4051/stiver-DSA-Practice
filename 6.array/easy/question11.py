@@ -25,9 +25,10 @@ n2=len(b)
 ans=[]
 i=0
 j=0
-while i<n1 and j<n2:
-    if a[i]==b[j]:
-        ans.append(a[i])
+while i<n1 and j<n2 :
+    if a[i]==b[j] :
+        if len(ans)==0 or ans[-1]!=a[i]:     
+            ans.append(a[i])
         i+=1
         j+=1
     elif a[i]<b[j]:

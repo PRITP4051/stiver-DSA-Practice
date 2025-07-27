@@ -16,7 +16,7 @@ def merge(arr, low, mid, high):               #leetcode=912
     while right <= high:
         temp.append(arr[right])
         right += 1
-    for i in range(low, high + 1):
+    for i in range(low, high + 1):      #use to store all temp elements back to array
         arr[i] = temp[i - low]
 
 def mergesort(arr, low, high):

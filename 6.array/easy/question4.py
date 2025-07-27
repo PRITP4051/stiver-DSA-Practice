@@ -9,7 +9,7 @@ for j in range(1,len(arr)):
     if (arr[j]!=arr[i]):
         arr[i+1]=arr[j]
         i+=1
-print(i+1)
+print(arr[:i+1])
 
 
 
