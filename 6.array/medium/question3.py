@@ -9,8 +9,6 @@
 #             count+=1
 # if count>n/2:
 #     print(a[i])
-
-
 #better
 from collections import Counter
 
@@ -32,7 +30,6 @@ def majorityElement(arr):
 arr = [2, 2, 1, 1, 1, 2, 2]
 ans = majorityElement(arr)
 print("The majority element is:", ans)
-
 
 #optimal
 
@@ -64,6 +61,4 @@ def majorityElement(arr):
 arr = [2, 2, 1, 1, 1, 2, 2]
 ans = majorityElement(arr)
 print("The majority element is:", ans)
-
-
 

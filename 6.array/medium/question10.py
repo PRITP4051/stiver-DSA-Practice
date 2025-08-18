@@ -1,4 +1,4 @@
-# #set metri zeros               #leetcode=73
+# #set metrix zeros               #leetcode=73
 # # better
 # def zeroMatrix(matrix, n, m):
 #     row = [0] * n  # row array

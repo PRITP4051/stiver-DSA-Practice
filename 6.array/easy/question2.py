@@ -13,11 +13,11 @@
 # print(secondlargest)
 
 #print second smallest element in array without sorting
-
+import sys
 arr=list(map(int,input("enter array element(saperated by space): ").split()))
 n=len(arr)
 smallest=arr[0]
-secondsmallest=1000000  #if array contain negative so write it in larger value int max
+secondsmallest=sys.maxsize  #if array contain negative so write it in larger value int max
 for i in range(0,n):
     if(arr[i]<smallest):
         secondsmallest=smallest

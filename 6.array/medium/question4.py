@@ -25,10 +25,10 @@ for i in range(n):
 print(maxi)
 
 #optimal solution
-
+import sys
 a=[-2,-3,4,-1,-2,1,5,-3]
 n=len(a)
-maxi=-10**5
+maxi=-sys.maxsize
 sum=0
 for i in range(n):
     sum+=a[i]
